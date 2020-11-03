@@ -13,7 +13,7 @@ public class Output {
         System.out.println("");
 
     }
-
+//kompositsioon
     public static void printItems(int i, MenuItem item) {
         String name = item.getName();
         double price = item.getPrice();

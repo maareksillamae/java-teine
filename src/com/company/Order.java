@@ -2,13 +2,12 @@ package com.company;
 
 import java.util.ArrayList;
 
-
+//abstraktsioon
 public class Order {
     private int orderNumber = 0; //todo
     private int id;
     private String meatType;
     private String bunType;
-
     private ArrayList<MenuItem> orderList;
 
     public Order() {
@@ -18,7 +17,7 @@ public class Order {
     public void createOrder() {
         orderNumber++;
     }
-
+    //polumorfism
     public void addBurgerToOrder(int id, String meat, String bun) {
         if (id == 1000) {
             orderList.add(MenuItem.createHamburger(meat, bun));

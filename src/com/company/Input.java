@@ -43,7 +43,7 @@ public class Input {
                 String meat = selectMeatType();
                 String bun = selectBunType(choice);
                 addMenuItem(choice, meat, bun);
-
+//kompositsioon
                 order.printReceipt();
                 order.getTotalPrice();
 
